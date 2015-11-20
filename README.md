@@ -18,24 +18,35 @@ Introduction
 
 ### model CRUD
 
+-	完成 User model CRUD 操作
+
 ### bootstrap
 
 ### service CRUD
 
-若有 error catch 使用 throw
+-	若有 error catch 使用 throw
+-	完成 UserService CRUD function
 
 ### controller CRUD
 
-若有 error catch 使用 res.serverError
+-	定義 routes
+-	若有 error catch 使用 res.serverError
+-	完成 UserController CRUD action
 
 ### login 實作
 
+-	navbar 新增 login 按鈕
+-	login 頁面實作
+
 ### sinon 使用
+
+-	mock login success
 
 ### 使用 policies (before filter)
 
 -	保護 controller
 -	進入 controller 前，前置處理
+-	使用者清單未登入不允許檢視 User 清單
 
 ### 使用 response (after filter)
 
