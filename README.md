@@ -1,6 +1,12 @@
 Introduction
 ============
 
+相關套件
+--------
+
+-	[sails](http://sailsjs.org/)
+-	[sequelize](http://docs.sequelizejs.com/en/latest/)
+
 課程內容
 --------
 
