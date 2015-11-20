@@ -45,10 +45,85 @@ Introduction
 作業
 ----
 
-### 使用者查詢功能
+### User 註冊功能
 
-### 使用者建立功能
+-	spec 定義
+	-	User 註冊功能
+-	後端實作
+	-	User 建立
+-	前端實作
+	-	註冊 User 表單
+	-	navbar 新增註冊
+	-	使用者登入後 navbar 註冊隱藏
 
-### post 清單顯示
+### User 篩選功能
 
-### post 建立功能
+-	policies 定義
+	-	未登入不允許使用此功能
+	-	導入到 302 頁面
+-	spec 定義
+	-	篩選 User.username 功能
+-	後端實作
+	-	資料查詢
+-	前端實作
+	-	User 查詢 input
+
+### Post 清單顯示
+
+-	spec 定義
+	-	Post 清單顯示
+-	後端實作
+	-	Post 查詢
+-	前端實作
+	-	navbar 新增 Post
+	-	Post 清單頁面
+
+### Post 建立
+
+-	policies 定義
+	-	未登入不允許使用此功能
+	-	導入到 302 頁面
+-	spec 定義
+	-	mock 使用者已登入
+	-	Post 建立必要歸屬於登入的 User
+-	後端實作
+	-	Post 建立
+	-	將 Post 歸屬於登入的 User
+-	前端實作
+	-	Post 清單新增 Post 建立 link
+	-	Post 建立表單
+
+### Post 檢視
+
+-	spec 定義
+	-	透過 Post.id 檢視特定 Post
+-	後端實作
+	-	Post 查詢
+-	前端實作
+	-	Post 清單對每筆資料新增 link
+	-	Post 檢視頁面
+
+### Post 更新
+
+-	policies 定義
+	-	未登入不允許使用此功能
+	-	導入到 302 頁面
+-	spec 定義
+	-	透過 Post.id 更新特定 Post
+-	後端實作
+	-	Post 更新功能
+-	前端實作
+	-	Post 檢視頁面新增修改 link
+	-	新增 Post 更新表單
+
+### Post 刪除
+
+-	policies 定義
+	-	未登入不允許使用此功能
+	-	導入到 302 頁面
+-	spec 定義
+	-	Post 刪除功能
+-	後端實作
+	-	Post 刪除
+-	前端實作
+	-	Post 檢視時新增刪除 link
